@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alkane - AI Solutions for Business</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ai-solutions.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="banner.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-animation">
+        <div class="loader"></div>
+                </div>
+
+    <nav class="main-nav">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="/">alkane.</a>
+                </div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+
+    <section class="hero" id="about">
+        <div class="ai-background">
+            <div class="ml-pattern"></div>
+            <div class="ai-grid"></div>
+            <div class="data-flow">
+                <div class="data-stream"></div>
+                <div class="data-stream"></div>
+                <div class="data-stream"></div>
+                <div class="data-stream"></div>
+        </div>
+            <svg class="neural-network" viewBox="0 0 1000 1000">
+                <g class="nodes">
+                    <circle cx="500" cy="500" r="5"/>
+                    <circle cx="300" cy="300" r="5"/>
+                    <circle cx="700" cy="300" r="5"/>
+                    <circle cx="300" cy="700" r="5"/>
+                    <circle cx="700" cy="700" r="5"/>
+                    <circle cx="200" cy="500" r="5"/>
+                    <circle cx="800" cy="500" r="5"/>
+                    <circle cx="500" cy="200" r="5"/>
+                    <circle cx="500" cy="800" r="5"/>
+                </g>
+                <g class="connections">
+                    <line x1="500" y1="500" x2="300" y2="300"/>
+                    <line x1="500" y1="500" x2="700" y2="300"/>
+                    <line x1="500" y1="500" x2="300" y2="700"/>
+                    <line x1="500" y1="500" x2="700" y2="700"/>
+                    <line x1="500" y1="500" x2="200" y2="500"/>
+                    <line x1="500" y1="500" x2="800" y2="500"/>
+                    <line x1="500" y1="500" x2="500" y2="200"/>
+                    <line x1="500" y1="500" x2="500" y2="800"/>
+                </g>
+                <g class="particles">
+                    <circle cx="250" cy="250" r="2"/>
+                    <circle cx="750" cy="250" r="2"/>
+                    <circle cx="250" cy="750" r="2"/>
+                    <circle cx="750" cy="750" r="2"/>
+                    <circle cx="500" cy="250" r="2"/>
+                    <circle cx="500" cy="750" r="2"/>
+                    <circle cx="250" cy="500" r="2"/>
+                    <circle cx="750" cy="500" r="2"/>
+                </g>
+            </svg>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="main-heading">Transform Your Business with AI</h1>
+            <p class="banner-description">Unlock the power of <strong>Artificial Intelligence</strong> to revolutionize your business operations and drive innovation.</p>
+            <a href="#contact" class="cta-button">Let's Start <span class="arrow">→</span></a>
+        </div>
+        
+        <div class="hero-visual">
+            <svg class="tech-illustration" viewBox="0 0 500 500">
+                <!-- AI Brain Illustration -->
+                <defs>
+                    <linearGradient id="circleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.1"/>
+                        <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.05"/>
+                    </linearGradient>
+                </defs>
+                
+                <!-- Background Circles -->
+                <circle cx="250" cy="250" r="200" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.1"/>
+                <circle cx="250" cy="250" r="150" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.1"/>
+                
+                <!-- Brain Network -->
+                <g class="brain-network">
+                    <!-- Nodes -->
+                    <circle cx="250" cy="200" r="20" fill="url(#circleGradient)" stroke="#ffffff" stroke-width="1"/>
+                    <circle cx="180" cy="280" r="15" fill="url(#circleGradient)" stroke="#ffffff" stroke-width="1"/>
+                    <circle cx="320" cy="280" r="15" fill="url(#circleGradient)" stroke="#ffffff" stroke-width="1"/>
+                    <circle cx="250" cy="340" r="15" fill="url(#circleGradient)" stroke="#ffffff" stroke-width="1"/>
+                    
+                    <!-- Connections -->
+                    <line x1="250" y1="200" x2="180" y2="280" stroke="#ffffff" stroke-width="1" opacity="0.2"/>
+                    <line x1="250" y1="200" x2="320" y2="280" stroke="#ffffff" stroke-width="1" opacity="0.2"/>
+                    <line x1="180" y1="280" x2="250" y2="340" stroke="#ffffff" stroke-width="1" opacity="0.2"/>
+                    <line x1="320" y1="280" x2="250" y2="340" stroke="#ffffff" stroke-width="1" opacity="0.2"/>
+                    
+                    <!-- Animated Particles -->
+                    <circle class="particle" cx="250" cy="200" r="2" fill="#ffffff">
+                        <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
+                        <animateMotion path="M0,0 L-70,80 L0,140 L70,80 Z" dur="4s" repeatCount="indefinite"/>
+                    </circle>
+                </g>
+                
+                <!-- Pulse Effect -->
+                <circle cx="250" cy="250" r="180" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.1">
+                    <animate attributeName="r" values="180;190;180" dur="3s" repeatCount="indefinite"/>
+                    <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite"/>
+                </circle>
+            </svg>
+        </div>
+    </section>
+
+
+    <!-- Solutions Section -->
+    <section class="solutions">
+        <div class="section-intro">
+            <h2 class="intro-heading">Our Services</h2>
+            <p class="intro-text">Explore our comprehensive range of AI-powered services designed for your business growth</p>
+        </div>
+        <div class="solutions-grid">
+            <div class="solution-item">
+                <div class="solution-image">
+                    <svg class="solution-illustration" viewBox="0 0 400 300">
+                        <!-- Automation Illustration -->
+                        <circle class="gear" cx="200" cy="150" r="60" fill="none" stroke="var(--primary-color)" stroke-width="2">
+                            <animateTransform attributeName="transform" type="rotate" from="0 200 150" to="360 200 150" dur="10s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle class="gear" cx="280" cy="150" r="40" fill="none" stroke="var(--primary-color)" stroke-width="2">
+                            <animateTransform attributeName="transform" type="rotate" from="360 280 150" to="0 280 150" dur="10s" repeatCount="indefinite"/>
+                        </circle>
+                        <path d="M100,150 Q200,50 300,150" fill="none" stroke="var(--primary-color)" stroke-width="1" opacity="0.5"/>
+                        <path d="M100,150 Q200,250 300,150" fill="none" stroke="var(--primary-color)" stroke-width="1" opacity="0.5"/>
+                        <circle class="particle" cx="0" cy="0" r="3" fill="var(--primary-color)">
+                            <animateMotion path="M100,150 Q200,50 300,150" dur="3s" repeatCount="indefinite"/>
+                        </circle>
+                    </svg>
+                </div>
+                <div class="solution-content">
+                    <h3>AI-Powered Automation</h3>
+                    <p>Transform your business operations with our comprehensive automation solutions powered by artificial intelligence.</p>
+                    <div class="solution-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-text">Hiring Automation</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-hashtag"></i>
+                            </div>
+                            <div class="feature-text">Social Media Management</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="feature-text">E-commerce Automation</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                            <div class="feature-text">Workflow Automation</div>
+                        </div>
+                    </div>
+                    <a href="#" class="solution-cta">Learn More</a>
+                </div>
+            </div>
+            <div class="solution-item">
+                <div class="solution-image">
+                    <svg class="solution-illustration" viewBox="0 0 400 300">
+                        <!-- Development Illustration -->
+                        <rect x="100" y="50" width="200" height="200" rx="10" fill="none" stroke="var(--primary-color)" stroke-width="2"/>
+                        <line x1="120" y1="90" x2="200" y2="90" stroke="var(--primary-color)" stroke-width="2" opacity="0.5">
+                            <animate attributeName="x2" values="120;200;120" dur="2s" repeatCount="indefinite"/>
+                        </line>
+                        <line x1="120" y1="110" x2="180" y2="110" stroke="var(--primary-color)" stroke-width="2" opacity="0.5">
+                            <animate attributeName="x2" values="120;180;120" dur="2s" repeatCount="indefinite"/>
+                        </line>
+                        <line x1="120" y1="130" x2="160" y2="130" stroke="var(--primary-color)" stroke-width="2" opacity="0.5">
+                            <animate attributeName="x2" values="120;160;120" dur="2s" repeatCount="indefinite"/>
+                        </line>
+                        <rect x="240" y="100" width="40" height="80" rx="5" fill="none" stroke="var(--primary-color)" stroke-width="2"/>
+                        <circle cx="320" cy="150" r="20" fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-dasharray="0 100">
+                            <animate attributeName="stroke-dasharray" values="0 100;100 100;0 100" dur="3s" repeatCount="indefinite"/>
+                        </circle>
+                    </svg>
+                </div>
+                <div class="solution-content">
+                    <h3>Rapid Development</h3>
+                    <p>Get your digital presence up and running quickly with our fast-track website and app development services.</p>
+                    <div class="solution-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="feature-text">Website in 1 Week</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="feature-text">Mobile Apps</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="feature-text">Custom Design</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="feature-text">Quick Deployment</div>
+                        </div>
+                    </div>
+                    <a href="#" class="solution-cta">Learn More</a>
+                </div>
+            </div>
+            <div class="solution-item">
+                <div class="solution-image">
+                    <svg class="solution-illustration" viewBox="0 0 400 300">
+                        <!-- AI Agent Illustration -->
+                        <circle cx="200" cy="150" r="50" fill="none" stroke="var(--primary-color)" stroke-width="2"/>
+                        <line x1="200" y1="150" x2="150" y2="100" stroke="var(--primary-color)" stroke-width="1" opacity="0.5"/>
+                        <line x1="200" y1="150" x2="250" y2="100" stroke="var(--primary-color)" stroke-width="1" opacity="0.5"/>
+                        <line x1="200" y1="150" x2="150" y2="200" stroke="var(--primary-color)" stroke-width="1" opacity="0.5"/>
+                        <line x1="200" y1="150" x2="250" y2="200" stroke="var(--primary-color)" stroke-width="1" opacity="0.5"/>
+                        <circle cx="150" cy="100" r="5" fill="var(--primary-color)">
+                            <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="250" cy="100" r="5" fill="var(--primary-color)">
+                            <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="150" cy="200" r="5" fill="var(--primary-color)">
+                            <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="250" cy="200" r="5" fill="var(--primary-color)">
+                            <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle class="data-particle" cx="175" cy="125" r="2" fill="var(--primary-color)">
+                            <animate attributeName="cx" values="175;225;175" dur="2s" repeatCount="indefinite"/>
+                            <animate attributeName="cy" values="125;175;125" dur="2s" repeatCount="indefinite"/>
+                        </circle>
+                    </svg>
+                </div>
+                <div class="solution-content">
+                    <h3>Personal AI Agent</h3>
+                    <p>Get a dedicated AI agent customized for your specific business needs and challenges.</p>
+                    <div class="solution-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="feature-text">Custom AI Solutions</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="feature-text">Business Intelligence</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="feature-text">Performance Analytics</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div class="feature-text">Process Optimization</div>
+                        </div>
+                    </div>
+                    <a href="#" class="solution-cta">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="industry-solutions">
+        <div class="floating-circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <h2 class="section-heading">AI for Every Industry</h2>
+        <p class="section-description">Our AI solutions are adaptable to any industry. Whether you're in healthcare, education, retail, or any other sector, we can customize our technology to meet your specific needs.</p>
+        
+        <div class="industry-icons">
+            <div class="industry-icon">
+                <i class="fas fa-hospital"></i>
+            </div>
+            <div class="industry-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="industry-icon">
+                <i class="fas fa-store"></i>
+            </div>
+            <div class="industry-icon">
+                <i class="fas fa-plane"></i>
+            </div>
+            <div class="industry-icon">
+                <i class="fas fa-building"></i>
+            </div>
+            <div class="industry-icon">
+                <i class="fas fa-truck"></i>
+            </div>
+        </div>
+
+        <a href="#contact" class="explore-cta">Explore Possibilities →</a>
+    </section>
+
+
+     <!-- Stats Section -->
+     <section class="stats-section">
+        <div class="section-intro">
+            <h2 class="intro-heading">Our Impact</h2>
+            <p class="intro-text">The numbers that define our success</p>
+        </div>
+        <div class="stats-container">
+            <div class="stat-card bounce-in">
+                <div class="stat-icon">
+                    <i class="fas fa-smile"></i>
+                </div>
+                <div class="stat-content">
+                    <div class="stat-number" data-count="98">98</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+                <div class="stat-progress">
+                    <div class="progress-bar" style="width: 98%"></div>
+                </div>
+            </div>
+
+            <div class="stat-card bounce-in">
+                <div class="stat-icon">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+                <div class="stat-content">
+                    <div class="stat-number" data-count="500">500</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-progress">
+                    <div class="progress-bar" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <div class="stat-card bounce-in">
+                <div class="stat-icon">
+                    <i class="fas fa-building"></i>
+                </div>
+                <div class="stat-content">
+                    <div class="stat-number" data-count="50">50</div>
+                    <div class="stat-label">Enterprise Clients</div>
+                    </div>
+                <div class="stat-progress">
+                    <div class="progress-bar" style="width: 50%"></div>
+                </div>
+                    </div>
+
+            <div class="stat-card bounce-in">
+                <div class="stat-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <div class="stat-content">
+                    <div class="stat-number" data-count="24">24</div>
+                    <div class="stat-label">Hours Support</div>
+                    </div>
+                <div class="stat-progress">
+                    <div class="progress-bar" style="width: 100%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="section-intro">
+            <h2 class="intro-heading">Our Process</h2>
+        </div>
+        <div class="process-dots"></div>
+        <div class="process-illustration">
+            <svg viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
+                <!-- Decorative Lines -->
+                <path d="M20,0 Q100,100 20,200 Q100,300 20,400" fill="none" stroke="var(--primary-color)" stroke-width="1" opacity="0.3"/>
+                <path d="M40,0 Q120,100 40,200 Q120,300 40,400" fill="none" stroke="var(--primary-color)" stroke-width="1" opacity="0.2"/>
+                <path d="M60,0 Q140,100 60,200 Q140,300 60,400" fill="none" stroke="var(--primary-color)" stroke-width="1" opacity="0.1"/>
+                
+                <!-- Animated Circles -->
+                <circle cx="30" cy="50" r="5" fill="var(--primary-color)" opacity="0.5">
+                    <animate attributeName="cy" values="50;350;50" dur="4s" repeatCount="indefinite"/>
+                    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="4s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="50" cy="350" r="3" fill="var(--primary-color)" opacity="0.3">
+                    <animate attributeName="cy" values="350;50;350" dur="3s" repeatCount="indefinite"/>
+                    <animate attributeName="opacity" values="0.3;0.1;0.3" dur="3s" repeatCount="indefinite"/>
+                </circle>
+                
+                <!-- Connecting Lines -->
+                <line x1="20" y1="100" x2="180" y2="100" stroke="var(--primary-color)" stroke-width="1" opacity="0.2" stroke-dasharray="5,5">
+                    <animate attributeName="y1" values="100;300;100" dur="5s" repeatCount="indefinite"/>
+                    <animate attributeName="y2" values="100;300;100" dur="5s" repeatCount="indefinite"/>
+                </line>
+                <line x1="20" y1="200" x2="180" y2="200" stroke="var(--primary-color)" stroke-width="1" opacity="0.2" stroke-dasharray="5,5">
+                    <animate attributeName="y1" values="200;400;200" dur="6s" repeatCount="indefinite"/>
+                    <animate attributeName="y2" values="200;400;200" dur="6s" repeatCount="indefinite"/>
+                </line>
+            </svg>
+        </div>
+        <div class="process-glow"></div>
+        <div class="process-chain">
+            <div class="process-step">
+                <div class="process-content">
+                    <div class="process-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Contact Us</h3>
+                    <p>Fill out a form, and our team will get back to you within 24 hours.</p>
+                </div>
+                <div class="step-number">1</div>
+            </div>
+            
+            <div class="process-step">
+                <div class="process-content">
+                    <div class="process-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Discuss Your Idea</h3>
+                    <p>Have a quick call with us to clarify your goals.</p>
+                </div>
+                <div class="step-number">2</div>
+            </div>
+            
+            <div class="process-step">
+                <div class="process-content">
+                    <div class="process-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Get a Cost Estimate</h3>
+                    <p>We'll review your project needs and share a budget and timeline.</p>
+                </div>
+                <div class="step-number">3</div>
+            </div>
+            
+            <div class="process-step">
+                <div class="process-content">
+                    <div class="process-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Kickstart the Project</h3>
+                    <p>Once confirmed, our team gets to work!</p>
+                </div>
+                <div class="step-number">4</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="key-features">
+        <div class="section-intro">
+            <h2 class="intro-heading">Key Features</h2>
+            <p class="intro-text">Explore the powerful features that set us apart</p>
+                </div>
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Lightning-Fast Processing</h3>
+                <p>Our AI delivers real-time insights, helping businesses make smarter decisions instantly. No delays, just seamless operations.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Enterprise-Grade Security</h3>
+                <p>With bank-level encryption and the highest security standards, your data remains safe and fully compliant with global regulations.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Scalable & Future-Ready Architecture</h3>
+                <p>Built on a cloud-native infrastructure, our AI solutions grow with your business, adapting effortlessly to new demands.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h3>Effortless Integration & Automation</h3>
+                <p>Easily integrate with your existing tools and workflows while automating tasks for higher efficiency and reduced workload.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="testimonials-container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                            </div>
+                    <div class="client-info">
+                        <div class="client-image">
+                            <img src="https://images.unsplash.com/photo-1580518337843-f959e992563b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80" alt="Sarah Johnson">
+                            </div>
+                        <div class="client-details">
+                            <div class="client-name">Sarah Johnson</div>
+                            <div class="client-position">CTO, TechCorp Solutions</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        "The AI solutions provided by the team have transformed our business operations. The efficiency gains and insights generated have been invaluable to our growth."
+                    </div>
+                    <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="client-info">
+                        <div class="client-image">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80" alt="Michael Chen">
+                        </div>
+                        <div class="client-details">
+                            <div class="client-name">Michael Chen</div>
+                            <div class="client-position">CEO, Innovation Labs</div>
+        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        "Implementing their AI solutions has given us a competitive edge in the market. The results have exceeded our expectations in every way."
+                </div>
+                    <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="client-info">
+                        <div class="client-image">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80" alt="David Anderson">
+                        </div>
+                        <div class="client-details">
+                            <div class="client-name">David Anderson</div>
+                            <div class="client-position">Director, Global Analytics</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        "The team's expertise in AI and machine learning has helped us achieve remarkable improvements in our data analytics capabilities."
+                </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="section-intro">
+            <h2 class="intro-heading">Frequently Asked Questions</h2>
+            <p class="intro-text">Get answers to common questions about our services</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is an AI agent, and how can it help my business?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>An AI agent is a system that can think, reason, and act autonomously. It helps businesses by automating repetitive tasks, providing data-driven insights, and making decisions in real-time, saving time and improving efficiency.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can GenAI (Generative AI) benefit my business?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>GenAI creates new content, solutions, and strategies by analyzing existing data. For your business, it can help generate marketing copy, design ideas, customer support responses, and even predictive analytics, boosting creativity and productivity.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can AI agents enhance customer experience in my business?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>AI agents can provide 24/7 customer support, offer personalized recommendations, predict customer needs, and automate responses to frequently asked questions, ensuring faster service and a better overall experience for your customers.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How quickly can I see results after implementing AI agents or automation?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Results can vary, but businesses typically see improvements within a few weeks to a couple of months. AI agents and automation start delivering value by increasing efficiency, cutting costs, and providing insights right after implementation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does it take to develop a website or app?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Project timelines vary based on complexity. A simple website may take a week, while a complex web or mobile application could take a month. We ensure timely delivery without compromising quality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2>Get in Touch</h2>
+            <p class="contact-description">Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <label for="name">
+                    <div class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <label for="email">
+                    <div class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                    <label for="phone">
+                    <div class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <select id="service" name="service" required>
+                        <option value="">Select Service</option>
+                        <option value="AI Agents">AI Agents</option>
+                        <option value="Automation">Automation</option>
+                        <option value="Website Development">Website Development</option>
+                        <option value="App Development">App Development</option>
+                    </select>
+                    <label for="service">Select Service</label>
+                    <div class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <label for="message">
+                    <div class="error-message"></div>
+                </div>
+                <button type="submit" class="submit-button">
+                    <span class="button-text">Send Message</span>
+                    <span class="button-loader"></span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>alkane.</h3>
+                <p>Transforming businesses through innovative AI solutions.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> +91 9671206950</p>
+                    <p><i class="fas fa-envelope"></i> alkane@gmail.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/alkane-ai" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/alkane.ai" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/alkane_ai" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/@alkane_ai" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">AI Solutions</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Mobile Apps</a></li>
+                    <li><a href="#">Cloud Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">GDPR</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 alkane. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("GdBEbAOokBm1ugQh6");
+        })();
+    </script>
+    <script src="script.js"></script>
+    <script>
+        // Hide loading animation when page loads
+        window.addEventListener('load', () => {
+            document.querySelector('.loading-animation').classList.add('hide');
+        });
+    </script>
+</body>
+</html> 
